@@ -15,10 +15,10 @@
 $postgresql_exe_url64 = 'http://get.enterprisedb.com/postgresql/postgresql-9.4.0-1-windows-x64.exe'
 $postgresql_exe_url32 = 'http://get.enterprisedb.com/postgresql/postgresql-9.4.0-1-windows.exe'
 
-$postgrePath        = "$(Get-BinRoot)\postgresql94"
+$postgrePath        = "$(Get-BinRoot)\postgresql9"
 $postgreAccount     = 'postgresql'
 $postgrePassword    = 'Postgres-1234'
-$postgreServiceName = 'postgresql94'
+$postgreServiceName = 'postgresql9'
 
 Write-Host "PostgreSQL Install Path:....... $postgrePath"
 Write-Host "PostgreSQL Install Account....: $postgreAccount"
